@@ -1,0 +1,49 @@
+.col-12 .form-control{
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.row .btn{
+    width: 100%;
+    margin-bottom: 5px;
+    background-color: rgb(236 164 164);
+    border: none;
+
+}
+
+
+.wrapper .content-wrapper .chatsection .container-fluid .row .col-md-4{
+    background-color: rgb(255, 255, 255);
+    width:450px;
+    border: 1px;
+    box-shadow: 1px 1px 10px;
+    margin: 20px;
+}
+
+.col-md-4 .name h5{
+    font-size: 20px;
+}
+
+.col-md-8{
+    margin-top: 20px;
+    box-shadow: 1px 1px 10px;
+    height: 100%;
+}
+
+
+
+
+
+.col-md-9 h5{
+    font-size: 20px;
+    margin-top: 15px;
+    
+}
+
+
+.typing-area .input-group {
+    width: 100%;
+   
+
+}
+

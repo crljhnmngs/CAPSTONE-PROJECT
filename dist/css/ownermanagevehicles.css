@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.main{
+min-height: 100vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.card-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 70px;
+}
+.card:hover{
+    box-shadow: 0 8px 50px rgba(0,0,0,0.5);
+    transform: scale(1.08);
+ } 
+.card{
+position:relative;
+ background:#fff;
+ max-width: 325px;
+ width: 265px;
+ height: auto;
+ margin:25px;
+ box-shadow: 0 5px 25px rgb(1 1 1 / 30%);
+ border-radius: 10px;
+ overflow:hidden;
+}
+.image2{
+    max-height: 250px;
+}
+.image2 img{
+    width: 100%;
+    height: 200px;
+}
+
+.title{
+position: relative;
+color: #222;
+padding: 0px 20px 20px;
+
+}
+.title h3{
+    font-size: 1.8em;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.des p{
+position: relative;
+color: #222;
+padding: 0px 20px 10px;
+font-size: 1em;
+
+}
+.button2{
+margin-top: 40px;
+margin-bottom: 10px;
+color: white;
+border: 1px solid black;
+border-radius: 5px;
+padding:5px 30px 20px;
+margin:5px;
+}
+.btns{
+    margin-bottom: 10px;
+    text-align: center;
+}
+button:hover{
+background-color: black;
+color: white;
+transition: .5s;
+cursor: pointer;
+}
+.button2-primary {
+background-color: #3c8dbc;
+border-color: #367fa9;
+}
+.button2-danger {
+color: #fff;
+background-color: #d9534f;
+border-color: #d43f3a;
+}
+.button2-group-sm>.button2, .button2-sm {
+padding: 5px 10px;
+font-size: 15px;
+line-height: 1.5;
+border-radius: 3px;
+}
+.paginations{
+    text-align: center;
+    margin: 0px 1px 30px;
+    user-select: none;
+}
+.paginations li{
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+}
+.paginations li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    line-height: 35px;
+}
+.previous-pages, .next-pages{
+    background: #3c8dbc;
+    width: 80px;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.previous-pages:hover{
+    transform: translateX(-5px);
+}
+.next-pages:hover{
+    transform: translateX(5px);
+}
+.current-pages, .dots{
+    background: #ccc;
+    width: 40px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.active{
+    background: #3c8dbc;
+}
+.disable{
+  background: #ccc;
+}
+.updateimage{
+    
+    max-height: 200px;
+}
+.updateimage img{
+    
+    width: 250px;
+    height: 200px;
+}   

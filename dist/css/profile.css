@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #3c8dbc;
+}
+
+.profile-button {
+    background: #3c8dbc;
+    box-shadow: none;
+    border: none;
+    margin-top: 20px;
+    
+    
+}
+
+.profile-button:hover {
+    background: #2e6da4;
+}
+
+.profile-button:focus {
+    background: #3c8dbc;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #3c8dbc;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #3c8dbc;
+    cursor: pointer;
+}
+
+.labels {
+    font-weight: 700;
+}
+.editbutton{
+    margin-bottom:20px;
+}
+
+.editbutton a{
+    cursor: pointer;
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+
